@@ -1,0 +1,271 @@
+*{ margin: 0; padding: 0; border: 0;}
+ul,ol,li,dl,dd,dt{list-style: none;}
+a { text-decoration: none; }
+input{outline: none;}
+label,button { cursor: pointer; }
+
+/*解决IE图片缩放失真*/
+img { -ms-interpolation-mode: bicubic; }
+/*清除浮动*/
+.clearfix:after { content: ''; display: block; height: 0; clear: both; }
+.clearfix { zoom: 1; }
+
+.clear { clear: both; }
+/*连续英文、数字换行*/
+.wordwrap { word-break: break-all; word-wrap: break-word; }
+/*单行文字超出显示省略号*/
+.omg{overflow: hidden; text-overflow: ellipsis; white-space:nowrap;}
+
+#web{
+	width: 100%;
+}
+header{
+	width: 100%;
+	height: 116px;
+	box-sizing: border-box;
+	padding: 20px 0 20px;
+	font-family: "微软雅黑";
+}
+.hdmin{
+	width: 1190px;
+	height: 76px;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+}
+.welcom{
+	float: left;
+	font-size: 24px;
+	color: #E5004F;
+	margin-top: 47px;
+	letter-spacing: 2px;
+}
+.hdtop{
+	width: 538px;
+	height: 76px;
+	float: right;
+	position: relative;
+}
+.hdleft{
+	width: 190px;
+	padding-left: 45px;
+}
+.hdcenter{
+	width: 178px;
+	padding-left: 48px;
+}
+.hdright{
+	width: 170px;
+	padding-left: 50px;
+}
+.hdleft,.hdcenter,.hdright{
+	float: left;
+	display: block;
+	height: 41px;
+	margin-top: 35px;
+	box-sizing: border-box;
+}
+.fttext-img{
+	display: block;
+	height: 40px;
+	overflow: hidden;
+	float: left;
+	z-index: 10;
+	position: relative;
+}
+.fttext2-in{
+	color: #E5004F;
+}
+.fttext2-22{
+	font-size: 12px;
+	color: #696969;
+	width: 160px;
+}
+.fttext2-2,.fttext2-22{
+	display: block;
+	width: 170px;
+	position: relative;
+	left: -50px;
+}
+#content{
+	width: 100%;
+	height: 570px;
+	background: #F9F9F9;
+}
+.main{
+	width: 1190px;
+	height: 570px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 60px 0 50px 0;
+}
+.main-left{
+	width: 780px;
+	height: 460px;
+	float: left;
+}
+.main-right{
+	width: 385px;
+	height: 460px;
+	float: right;
+	background: #f1f1f1;
+}
+.form{
+	width: 385px;
+	height: 407px;
+}
+.zhuce{
+	width: 385px;
+	height: 40px;
+	box-sizing: border-box;
+	border-bottom:3px solid #E5004F;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 37px;
+	background: white;
+}
+.denglu{
+	width: 385px;
+	height: 36px;
+	box-sizing: border-box;
+	padding: 10px 20px 10px;
+	font-size: 14px;
+	text-align: right;
+	line-height: 16px;
+	background: #F1F1F1;
+}
+.formin{
+	width: 385px;
+	height: 316px;
+	background: #f1f1f1;
+}
+.inputbox{
+	width: 385px;
+	height: 44px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	border-bottom: 1px solid #D2D2D2;
+	background: white;
+}
+.formin input{
+	height: 20px;
+	width: 50%;
+	line-height: 44px;
+	color: #333;
+	outline: 0;
+	position: relative;
+	top: 12px;
+	line-height: 20px;
+	font-size: 14px;
+}
+.yanzhen{
+	width: 90px;
+	height: 28px;
+	border-radius: 3px;
+	background: white;
+	color: #999;
+	border: 1px solid #999;
+	box-sizing: border-box;
+	float: right;
+	margin: 8px 20px 0 0;
+}
+.useExplain{
+	width: 385px;
+	height: 36px;
+	box-sizing: border-box;
+	padding: 10px;
+	text-align: left;
+	line-height: 16px;
+	font-size: 13px;
+	color: #666;
+	background: #F1F1F1;
+}
+.useExplain2{
+	width: 385px;
+	height: 68px;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 13px;
+	color: #666;
+	background: #F1F1F1;
+	letter-spacing: -1px;
+}
+.chuangjian{
+	display: block;
+	width: 308px;
+	height: 35px;
+	border-radius: 7px;
+	margin: 0px auto 15px;
+	box-sizing: border-box;
+	color: white;
+	font-size: 14px;
+}
+/*footer区*/
+footer{
+	width: 100%;
+	height: 195px;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+.ftct{
+	width: 1195px;
+	height: 18px;
+	margin: 0 auto 25px;
+}
+.ftcenter{
+	width: 830px;
+	height: 18px;
+	margin: 0 auto;
+}
+.ftcenter li{
+	width: 68px;
+	height: 14px;
+	text-align: center;
+	line-height: 14px;
+	box-sizing: border-box;
+	font-size: 12px;
+	float: left;
+	color: #666666;
+	border-right: 1px solid #666666;
+}
+.ftcenter li:hover{
+	color: #E5004F;
+}
+.banquanbox{
+	width: 1195px;
+	height: 44px;
+	margin:  0 auto;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	color: #A9A9A9;
+}
+.banquantop,.banquanend{
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+}
+.ftend{
+	width: 370px;
+	height: 78px;
+	box-sizing: border-box;
+	padding: 12px 0px 18px;
+	margin:  0 auto;
+}
+.ftend img{
+	height: 40px;
+	text-align: center;
+}
+.ftend a{
+	display: block;
+	float: left;
+	height: 40px;
+	margin:  0 12px 0;
+	text-align: center;
+}
+
+
+
+
+
+	

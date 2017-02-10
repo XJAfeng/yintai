@@ -1,0 +1,494 @@
+*{ margin: 0; padding: 0; border: 0;}
+ul,ol,li,dl,dd,dt{list-style: none;}
+a { text-decoration: none; }
+input{outline: none;}
+label,button { cursor: pointer; }
+
+/*解决IE图片缩放失真*/
+img { -ms-interpolation-mode: bicubic; }
+/*清除浮动*/
+.clearfix:after { content: ''; display: block; height: 0; clear: both; }
+.clearfix { zoom: 1; }
+
+.clear { clear: both; }
+/*连续英文、数字换行*/
+.wordwrap { word-break: break-all; word-wrap: break-word; }
+/*单行文字超出显示省略号*/
+.omg{overflow: hidden; text-overflow: ellipsis; white-space:nowrap;}
+
+#web{
+	width: 100%;
+	/*padding: 0 80px;*/
+}
+header{
+	width: 100%;
+	height: 34px;
+	background: #EEEEEE;
+	box-sizing: border-box;
+	padding: 0 77px;
+	font-family: "微软雅黑";
+	font-size: 13px;
+}
+.hd-left{
+	width: 336px;
+	height: 34px;
+	display: inline-block;
+}
+.hd-left li{
+	color: darkgrey;
+	height: 34px;
+	float: left;
+	line-height: 34px;
+	box-sizing: border-box;
+	padding: 0 0 0 4px;
+	position: relative;
+}
+.hd-left a{
+	color: dimgrey;
+}
+.hdw1{
+	height: 34px;
+	width: 87px;
+}
+.hdw2{
+	height: 34px;
+	width:79px;
+}
+.hd-left li:hover .hdgreen{
+	color: green;
+}
+.hd-left li:hover a,
+.hd-left li:hover .hdred{
+	color: deeppink;
+}
+.hdw2:hover .hdsanjiao,
+.hdw3:hover .hdsanjiao,
+.hd-li3:hover .hdsanjiao{
+	z-index: 15;
+	color: deeppink;
+	transform: rotateZ(180deg);
+}
+.hd-li3:hover .hdsanjiao{
+	z-index: 15;
+	color: red;
+	transform: rotateZ(180deg);
+}
+.hdw3{
+	width: 148px;
+}
+.hdsanjiao{
+	position: relative;
+	top: -35px;
+	left: 65px;
+	color: dimgray;
+	transition: all 0.5s;
+	display: inline-block;
+}
+.weixin{
+	width: 124px;
+	height: 152px;
+	background: white;
+	box-sizing: border-box;
+	padding:42px 12px 10px;
+	position: absolute;
+	top:0px;
+	z-index: 10;
+	display: none;
+	box-shadow: 2px 2px 5px 2px gainsboro;
+}
+.hdw2:hover .weixin,
+.hdw3:hover .shoujiweixin{
+	display: block;
+}
+.hdw2:hover .hdgreen,
+.hdw2:hover a,
+.hdw3:hover .hdred,
+.hdw3:hover a{
+	z-index: 15;
+}
+.shoujiweixin{
+	width: 148px;
+	height: 190px;
+	background: white;
+	box-sizing: border-box;
+	padding: 44px 7px 10px;
+	position: absolute;
+	top: 0px;
+	display: none;
+	z-index: 10;
+	box-shadow: 2px 2px 5px 2px gainsboro;
+}
+.hd-right{
+	width: 490px;
+	height: 34px;
+	float: right;
+}
+.hd-right li{
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	color: dimgray;
+	position: relative;
+}
+.hd-li1{
+	width: 196px;
+	box-sizing: border-box;
+	padding-right: 10px;
+}
+.hd-li2{
+	width: 68px;
+}
+.hd-li3{
+	width: 82px;
+}
+.hd-li4{
+	width: 56px;
+}
+.hd-rigth-red{
+	color: dimgray;
+}
+.hd-right .hd-rigth-red:hover{
+	color: deeppink;
+}
+.myyt{
+	width: 82px;
+	height: 214px;
+	box-shadow: 2px 2px 5px 2px gainsboro;
+	position: absolute;
+	top: 0px;
+	display: none;
+	z-index: -1;
+}
+.myyt p{
+	width: 83px;
+	height: 30px;
+	border-bottom: 1px solid gainsboro;
+	background: white;
+	text-align: center;
+	line-height: 30px;
+}
+.myyt-txt{
+	color: dimgrey;
+}
+.myyt-txt:hover {
+	color: red;
+}
+.hd-li3:hover .myyt{
+	color: dimgrey;
+	display: block;
+}
+.hd-li3:hover{
+	color: red;
+	z-index: 15;
+}
+.myyt p:hover{
+	color: red;
+	text-decoration: underline;
+}
+#seach-box{
+	width: 100%;
+	height: 159px;
+	box-sizing: border-box;
+	padding: 0 77px;
+}
+.logo{
+	display: inline-block;
+	margin-top: 21px;
+	float: left;
+}
+.logonetx{
+	display: inline-block;
+	width: 130px;
+	height: 80px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	margin-top: 21px;
+	float: left;
+	border-left: 1px solid gainsboro;
+}
+.search-input{
+	width: 498px;
+	height: 60px;
+	margin-top: 21px;
+	display: inline-block;
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 190px;
+}
+.search-input input{
+	width: 450px;
+	height: 32px;
+	text-indent: 1em;
+	position: relative;
+	border: 2px solid #323333;
+}
+.search-input .btn{
+	width: 48px;
+	height: 36px;
+	background: #323333;
+	position: absolute;
+	top: 0px;
+	right: 15px;
+}
+.search-ul{
+	width: 450px;
+	position: absolute;
+	top: 45px;
+	left: 0px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.search-ul li{
+	margin-right: 15px;
+	line-height: 15px;
+	float: left;
+	color: gray;
+}
+.search-ul li:hover{
+	text-decoration: underline;
+	color:#E5004F;
+}
+.gouwuche{
+	width: 160px;
+	height: 36px;
+	display: inline-block;
+	float: right;
+	background:#323333 ;
+	margin: 40px 0 0 18px;
+	color: white;
+	font-family: "微软雅黑";
+	font-size:13px;
+	line-height: 36px;
+	position: relative;
+	top: 1px;
+}
+.gw{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: 5px solid rgba(5,5,5,0);
+	position: relative;
+	left: 25px;
+	top: 3px;
+}
+.gouwudai{
+	color: dimgrey;
+	background: white;
+	width: 290px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	position: absolute;
+	top: 37px;
+	right: 0px;
+	box-shadow: 2px 2px 5px 2px gainsboro;
+	display: none;
+	z-index: 5;
+}
+.gouwuche:hover .gouwudai{
+	display: block;
+}
+.shenji{
+	width: 160px;
+	height: 17px;
+	color: dimgrey;
+}
+.smallnav{
+	height: 39px;
+	font-family: "微软雅黑";
+	position: relative;
+	top: 120px;
+}
+.first{
+	width: 210px;
+	height: 39px;
+	position: absolute;
+	background: rgb(34,34,34);
+	color: white;
+	text-align: center;
+	line-height: 39px;
+	font-size: 18px;
+}
+.last{
+	width: 149px;
+	height: 39px;
+	position: absolute;
+	right: 0;
+	font-size: 13px;
+	color: darkslategray;
+	line-height: 39px;
+	text-align: center;
+}
+.last a{
+	color: darkslategray;
+}
+.smallnav a:hover{
+	color: deeppink;
+}
+.smallnav-ul{
+	width: 298px;
+	height: 39px;
+	position: absolute;
+	top: 0px;
+	left: 210px;
+}
+.smallnav-ul li{
+	width: 98px;
+	height: 39px;
+	float: left;
+	text-align: center;
+	line-height: 39px;
+	box-sizing: border-box;
+	padding: 0 15px;
+}
+.smallnav-ul a{
+	height: 39px;
+	box-sizing: border-box;
+	color: darkslategrey;
+	display: block;
+}
+.smallnav-ul li a:hover{
+	color: deeppink;
+	border-bottom: 3px solid deeppink;
+}
+/*************banner区****************/
+
+#banner{
+	width: 100%;
+	position: relative;
+	border-top: 1px solid #222;
+	z-index: 20;
+}
+.left-nav{
+	display: none;
+}
+.left-nav,.left-nav ul{
+	width: 210px;
+	height: 471px;
+	position: absolute;
+	top: 0;
+	left: 38.5px;
+	z-index: 10;
+	color:white;
+	box-sizing: border-box;
+}
+.left-nav li{
+	width: 210px;
+	height: 46px;
+	border-bottom: 1px solid gainsboro;
+	background: rgb(51,51,51);
+	font-family: "微软雅黑";
+	line-height: 46px;
+	text-align: center;
+}
+.jiantou{
+	margin-left: 35px;
+}
+.mingping{
+	font-size: 16px;
+	margin-right: 5px;
+}
+.shangxing{
+	font-size: 12px;
+}
+.left-nav li:hover{
+	background: #E5004F;
+}
+.left-nav li:hover .jiantou{
+	opacity: 0;
+}
+.nextnav{
+	width: 496px;
+	height: 433px;
+	background: rgba(5,5,5,0.8);
+	position: absolute;
+	top: 0;
+	left: 210px;
+	display: none;
+}
+.left-nav li:hover .nextnav{
+	display: block;
+}
+.next-rt{
+	width: 160px;
+	height: 433px;
+	background: rgba(5,5,5,0.9);
+	display: inline-block;
+	float: right;
+	box-sizing: border-box;
+	padding: 15px;
+	position: relative;
+}
+.next-lt{
+	width: 336px;
+	height: 433px;
+	display: inline-block;
+	float: left;
+}
+.next-lt ul{
+	box-sizing: border-box;
+	padding: 10px 0;
+}
+.next-lt li:nth-child(2),
+.next-lt li:nth-child(4){
+	color: #E5004F;
+}
+#banner .next-lt li{
+	background: none;
+	border-bottom: none;
+	width: 40px;
+	height: 20px;
+	float: left;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+}
+#banner .next-lt li:nth-child(1){
+	font-size: 14px;
+}
+.next-lt ul{
+	width: 297px;
+	height: 58px;
+	border-bottom: 1px dashed gainsboro;
+	background: none;
+	position: relative;
+	left: 20px;
+}
+.next-lt li:hover{
+	color: #E5004F;
+	background: none;
+}
+.next-rt p{
+	width: 130px;
+	height: 30px;
+	text-align: left;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 13px;
+	border-bottom: 1px dashed gainsboro;
+}
+.next-rt ul{
+	width: 130px;
+	height: 170px;
+	position: absolute;
+	top: 45px;
+	left: 15px;
+}
+.next-rt li{
+	border: none;
+	background: none;
+	font-size: 13px;
+	height: 25px;
+	font-size: 12px;
+	width: 90px;
+	line-height: 25px;
+	text-align: left;
+	display: block;
+	float: left;
+}
+.next-rt li:hover{
+	color: #E5004F;
+	background: none;
+}

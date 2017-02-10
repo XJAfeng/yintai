@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/xiangqing.css"/>
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			@font-face {
+				  font-family: 'iconfont';
+				  src: url('font/iconfont.eot');
+				  src: url('font/iconfont.eot?#iefix') format('embedded-opentype'),
+				  url('font/iconfont.woff') format('woff'),
+				  url('font/iconfont.ttf') format('truetype'),
+				  url('font/iconfont.svg#iconfont') format('svg');
+				}
+			.iconfont{
+				font-family: 'iconfont';
+				font-size: 16px;
+				vertical-align: 1px;
+				position: relative;
+				top: 3px;
+				color: #323333;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="web">
+			<!--Header区-->
+			<header>
+				<ul class="hd-left">
+					<li class="hdw1">
+						<span class="iconfont hdred" style="font-size: 24px;line-height: 31px;">
+							&#xe691;
+						</span>
+						<a href="index.html" style="position: relative;left: 29px;top:-35px;height: 14px;width: 65px;display: block;">
+							银泰首页
+						</a>
+					</li>
+					<li>|</li>
+					<li class="hdw2">
+						<span class="iconfont hdgreen" style="font-size: 24px;line-height: 28px;position: relative;left: 3px;">
+							&#xe61f;
+						</span>
+						<a href="" style="position: relative;left: -2px;height: 14px;width: 65px;">
+							微信
+						</a>
+						<span class="hdsanjiao">∨</span>
+						<div class="weixin">
+							<img src="img/wx.png"/>
+						</div>
+					</li>
+					<li>|</li>
+					<li class="hdw3 ">
+						<span class="iconfont hdred" style="font-size: 22px;line-height: 25px;position: relative;left: 2px;">
+							&#xe60b;
+						</span>
+						<a href="" style="position: relative;left:-8px;top: 1px;height: 14px;width: 65px;">
+							手机银泰
+						</a>
+						<span class="hdsanjiao" style="position: relative;top: 0;left: -7px;">∨</span>
+						<div class="shoujiweixin">
+							<img src="img/khd.png"/>
+						</div>
+					</li>
+				</ul>
+				<ul class="hd-right">
+					<li class="hd-li1">
+						<span style="width: 120px;">Hi,欢迎来到银泰网</span>
+						<a style="margin:0 5px;" class="hd-rigth-red" href="denglu.html">登录</a>
+						<a class="hd-rigth-red" " href="zhuce.html">注册</a>
+					</li>
+					<li>|</li>
+					<li class="hd-li2 hd-rigth-red">我的订单</li>
+					<li>|</li>
+					<li class="hd-li3 hd-rigth-red">
+						<a href="" class="myyt-txt">
+							我的银泰
+						</a>
+						<span class="hdsanjiao" style="position: relative;top: 0;left: 2px;">∨</span>
+							<ul  class="myyt">
+								<p style="box-sizing: border-box;padding-top: 34px;height: 64px;">
+									我的收藏
+								</p>
+								<p>我的余额</p>
+								<p>我的银元</p>
+								<p>我的银泰卡</p>
+								<p>我的优惠券</p>
+								<p>我的积分</p>
+							</ul>
+						
+						
+					</li>
+					<li>|</li>
+					<li class="hd-li4 hd-rigth-red">银泰卡</li>
+					<li>|</li>
+					<li class="hd-li2 hd-rigth-red">帮助中心</li>
+				</ul>
+			</header>
+			
+			<!--Search-box区-->
+			
+			<div id="seach-box">
+				<img src="img/logo.gif" class="logo"/>
+				<img src="img/search.gif" class="logonetx"/>
+				<div class="search-input">
+					<input type="text" id="" placeholder="一梳到底  Tangle Teezer"/>
+					<div class="btn">
+						<span class="iconfont" style="font-size: 22px;line-height: 25px;position: relative;left: 12px;top:4px;color: white;">
+							&#xe621;
+						</span>
+					</div>
+					<ul class="search-ul">
+						<li>斯凯奇别样新年</li>
+						<li>女装品牌团</li>
+						<li style="color: #E5004F;">婴幼儿服饰</li>
+						<li style="color: #E5004F;">轻复古重文艺</li>
+						<li>奢品斜挎包</li>
+					</ul>
+				</div>
+				<div class="gouwuche">
+					<span class="iconfont" style="font-size: 22px;line-height: 25px;position: relative;left: 15px;top:4px;color: white;">
+						&#xe633;
+					</span>
+					<a href="gouwuche.html" style="position: relative;left:10px;display: inline-block;color: white;">购物车<span style="color: deeppink">0</span>件</a>
+					<div class="gw" style="border-top: 5px solid dimgrey;"></div>
+					<div class="gouwudai">购物袋中还没有商品，赶紧选购吧！</div>
+					<div class="shenji">
+						<span class="iconfont" style="font-size: 20px;line-height: 25px;position: relative;left: 15px;top:4px;">
+							&#xe631;
+						</span>
+						<span style="position: relative;left: 10px;color: #E5004F;">技术升级公告</span>
+					</div>
+				</div>
+				<div class="smallnav">
+					<div class="first">全部分类</div>
+					<ul class="smallnav-ul">
+						<li><a href="">名品馆</a></li>
+						<li style="width: 82px;"><a href="">特卖</a></li>
+						<li><a href="">海淘馆</a></li>
+					</ul>
+					<div class="last">
+						<a href="" style="margin-right: 5px;">积分商城</a>|
+						<a href="">全部品牌</a>
+					</div>
+				</div>
+			</div>
+			<div id="banner">
+				<div class="left-nav">
+					<ul class="left-nav">
+						<li>
+							<span class="iconfont hdred" style="font-size: 16px;line-height: 46px;color: white;">
+								&#xe615;
+							</span>
+							<span class="mingping">名品</span>|
+							<span class="shangxing">秋冬尚新</span>
+							<span class="jiantou"> > </span>
+							<div class="nextnav">
+								<div class="next-lt">
+									<ul style="margin-top: 5px;">
+										<li style="margin-right: 230px;text-align: left;">男装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+										<li>裙装</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">鞋靴</li>
+										<li>新品</li>
+										<li style="width: 60px;">女士单鞋</li>
+										<li>男鞋</li>
+										<li>靴子</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女包</li>
+										<li>新品</li>
+										<li style="width: 75px;">手提斜跨包</li>
+										<li>单肩包</li>
+										<li>钱夹</li>
+										<li>手拿包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">男包</li>
+										<li>新品</li>
+										<li>钱包</li>
+										<li>单肩包</li>
+										<li>手拿包</li>
+										<li>手提包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">配饰</li>
+										<li>新品</li>
+										<li>围巾</li>
+										<li>帽子</li>
+										<li>腰带</li>
+									</ul>
+									<ul style="border-bottom: none;">
+										<li style="margin-right: 230px;text-align: left;">婴童</li>
+										<li>童装</li>
+										<li>童鞋</li>
+										<li style="width: 50px;">婴童配饰</li>
+									</ul>
+								</div>
+								<div class="next-rt">
+									<p>品牌</p>
+									<ul>
+										<li style="margin-top: 10px;">BURBERRY</li>
+										<li>FERRAGAMO</li>
+										<li style="width: 50px;">GUCCI</li>
+										<li style="width: 50px;">COACH</li>
+										<li>ARMANI JEANS</li>
+										<li style="width: 50px;">DIESEL</li>
+										<li style="width: 50px;">VERSACE</li>
+										<li>MAX&CO</li>
+										<li>FRED PERRY</li>
+										<li>CELINE</li>
+										<li>SPORTMAX</li>
+										<li>MAX MARA</li>
+										<li>MICHAEL KORS</li>
+										<li style="width: 50px;">ZEGNA</li>
+										<li style="width: 50px;">FENDI</li>
+										<li style="width: 120px;">EMPORIO ARMANI</li>
+										<li >BALLY</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="iconfont hdred" style="font-size: 16px;line-height: 46px;color: white;">
+								&#xe63b;
+							</span>
+							<span class="mingping">女装</span>|
+							<span class="shangxing">秋冬上新</span>
+							<span class="jiantou"> > </span>
+							<div class="nextnav">
+								<div class="next-lt">
+									<ul style="margin-top: 5px;">
+										<li style="margin-right: 230px;text-align: left;">男装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+										<li>裙装</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">鞋靴</li>
+										<li>新品</li>
+										<li style="width: 60px;">女士单鞋</li>
+										<li>男鞋</li>
+										<li>靴子</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女包</li>
+										<li>新品</li>
+										<li style="width: 75px;">手提斜跨包</li>
+										<li>单肩包</li>
+										<li>钱夹</li>
+										<li>手拿包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">男包</li>
+										<li>新品</li>
+										<li>钱包</li>
+										<li>单肩包</li>
+										<li>手拿包</li>
+										<li>手提包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">配饰</li>
+										<li>新品</li>
+										<li>围巾</li>
+										<li>帽子</li>
+										<li>腰带</li>
+									</ul>
+									<ul style="border-bottom: none;">
+										<li style="margin-right: 230px;text-align: left;">婴童</li>
+										<li>童装</li>
+										<li>童鞋</li>
+										<li style="width: 50px;">婴童配饰</li>
+									</ul>
+								</div>
+								<div class="next-rt">
+									<p>品牌</p>
+									<ul>
+										<li style="margin-top: 10px;">BURBERRY</li>
+										<li>FERRAGAMO</li>
+										<li style="width: 50px;">GUCCI</li>
+										<li style="width: 50px;">COACH</li>
+										<li>ARMANI JEANS</li>
+										<li style="width: 50px;">DIESEL</li>
+										<li style="width: 50px;">VERSACE</li>
+										<li>MAX&CO</li>
+										<li>FRED PERRY</li>
+										<li>CELINE</li>
+										<li>SPORTMAX</li>
+										<li>MAX MARA</li>
+										<li>MICHAEL KORS</li>
+										<li style="width: 50px;">ZEGNA</li>
+										<li style="width: 50px;">FENDI</li>
+										<li style="width: 120px;">EMPORIO ARMANI</li>
+										<li >BALLY</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="iconfont hdred" style="font-size: 16px;line-height: 46px;color: white;">
+								&#xe663;
+							</span>
+							<a href="splb.html" class="mingping" style="color: white;">男装</a>|
+							
+							<span class="shangxing">型男专场</span>
+							<span class="jiantou"> > </span>
+							<div class="nextnav">
+								<div class="next-lt">
+									<ul style="margin-top: 5px;">
+										<li style="margin-right: 230px;text-align: left;">男装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+										<li>裙装</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">鞋靴</li>
+										<li>新品</li>
+										<li style="width: 60px;">女士单鞋</li>
+										<li>男鞋</li>
+										<li>靴子</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女包</li>
+										<li>新品</li>
+										<li style="width: 75px;">手提斜跨包</li>
+										<li>单肩包</li>
+										<li>钱夹</li>
+										<li>手拿包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">男包</li>
+										<li>新品</li>
+										<li>钱包</li>
+										<li>单肩包</li>
+										<li>手拿包</li>
+										<li>手提包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">配饰</li>
+										<li>新品</li>
+										<li>围巾</li>
+										<li>帽子</li>
+										<li>腰带</li>
+									</ul>
+									<ul style="border-bottom: none;">
+										<li style="margin-right: 230px;text-align: left;">婴童</li>
+										<li>童装</li>
+										<li>童鞋</li>
+										<li style="width: 50px;">婴童配饰</li>
+									</ul>
+								</div>
+								<div class="next-rt">
+									<p>品牌</p>
+									<ul>
+										<li style="margin-top: 10px;">BURBERRY</li>
+										<li>FERRAGAMO</li>
+										<li style="width: 50px;">GUCCI</li>
+										<li style="width: 50px;">COACH</li>
+										<li>ARMANI JEANS</li>
+										<li style="width: 50px;">DIESEL</li>
+										<li style="width: 50px;">VERSACE</li>
+										<li>MAX&CO</li>
+										<li>FRED PERRY</li>
+										<li>CELINE</li>
+										<li>SPORTMAX</li>
+										<li>MAX MARA</li>
+										<li>MICHAEL KORS</li>
+										<li style="width: 50px;">ZEGNA</li>
+										<li style="width: 50px;">FENDI</li>
+										<li style="width: 120px;">EMPORIO ARMANI</li>
+										<li >BALLY</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="iconfont hdred" style="font-size: 16px;line-height: 46px;color: white;">
+								&#xe63e;
+							</span>
+							<span class="mingping">鞋靴</span>|
+							<span class="shangxing">时尚鞋品</span>
+							<span class="jiantou"> > </span>
+							<div class="nextnav">
+								<div class="next-lt">
+									<ul style="margin-top: 5px;">
+										<li style="margin-right: 230px;text-align: left;">男装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+										<li>裙装</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">鞋靴</li>
+										<li>新品</li>
+										<li style="width: 60px;">女士单鞋</li>
+										<li>男鞋</li>
+										<li>靴子</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女包</li>
+										<li>新品</li>
+										<li style="width: 75px;">手提斜跨包</li>
+										<li>单肩包</li>
+										<li>钱夹</li>
+										<li>手拿包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">男包</li>
+										<li>新品</li>
+										<li>钱包</li>
+										<li>单肩包</li>
+										<li>手拿包</li>
+										<li>手提包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">配饰</li>
+										<li>新品</li>
+										<li>围巾</li>
+										<li>帽子</li>
+										<li>腰带</li>
+									</ul>
+									<ul style="border-bottom: none;">
+										<li style="margin-right: 230px;text-align: left;">婴童</li>
+										<li>童装</li>
+										<li>童鞋</li>
+										<li style="width: 50px;">婴童配饰</li>
+									</ul>
+								</div>
+								<div class="next-rt">
+									<p>品牌</p>
+									<ul>
+										<li style="margin-top: 10px;">BURBERRY</li>
+										<li>FERRAGAMO</li>
+										<li style="width: 50px;">GUCCI</li>
+										<li style="width: 50px;">COACH</li>
+										<li>ARMANI JEANS</li>
+										<li style="width: 50px;">DIESEL</li>
+										<li style="width: 50px;">VERSACE</li>
+										<li>MAX&CO</li>
+										<li>FRED PERRY</li>
+										<li>CELINE</li>
+										<li>SPORTMAX</li>
+										<li>MAX MARA</li>
+										<li>MICHAEL KORS</li>
+										<li style="width: 50px;">ZEGNA</li>
+										<li style="width: 50px;">FENDI</li>
+										<li style="width: 120px;">EMPORIO ARMANI</li>
+										<li >BALLY</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="iconfont hdred" style="font-size: 16px;line-height: 46px;color: white;">
+								&#xe632;
+							</span>
+							<a href="xiangqing.html" class="mingping" style="color: white;">美妆</a>|
+							<span class="shangxing">护肤套装</span>
+							<span class="jiantou"> > </span>
+							<div class="nextnav">
+								<div class="next-lt">
+									<ul style="margin-top: 5px;">
+										<li style="margin-right: 230px;text-align: left;">男装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+										<li>裙装</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">鞋靴</li>
+										<li>新品</li>
+										<li style="width: 60px;">女士单鞋</li>
+										<li>男鞋</li>
+										<li>靴子</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女包</li>
+										<li>新品</li>
+										<li style="width: 75px;">手提斜跨包</li>
+										<li>单肩包</li>
+										<li>钱夹</li>
+										<li>手拿包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">男包</li>
+										<li>新品</li>
+										<li>钱包</li>
+										<li>单肩包</li>
+										<li>手拿包</li>
+										<li>手提包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">配饰</li>
+										<li>新品</li>
+										<li>围巾</li>
+										<li>帽子</li>
+										<li>腰带</li>
+									</ul>
+									<ul style="border-bottom: none;">
+										<li style="margin-right: 230px;text-align: left;">婴童</li>
+										<li>童装</li>
+										<li>童鞋</li>
+										<li style="width: 50px;">婴童配饰</li>
+									</ul>
+								</div>
+								<div class="next-rt">
+									<p>品牌</p>
+									<ul>
+										<li style="margin-top: 10px;">BURBERRY</li>
+										<li>FERRAGAMO</li>
+										<li style="width: 50px;">GUCCI</li>
+										<li style="width: 50px;">COACH</li>
+										<li>ARMANI JEANS</li>
+										<li style="width: 50px;">DIESEL</li>
+										<li style="width: 50px;">VERSACE</li>
+										<li>MAX&CO</li>
+										<li>FRED PERRY</li>
+										<li>CELINE</li>
+										<li>SPORTMAX</li>
+										<li>MAX MARA</li>
+										<li>MICHAEL KORS</li>
+										<li style="width: 50px;">ZEGNA</li>
+										<li style="width: 50px;">FENDI</li>
+										<li style="width: 120px;">EMPORIO ARMANI</li>
+										<li >BALLY</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="iconfont hdred" style="font-size: 16px;line-height: 46px;color: white;">
+								&#xe633;
+							</span>
+							<span class="mingping">箱包</span>|
+							<span class="shangxing">女神单肩</span>
+							<span class="jiantou"> > </span>
+							<div class="nextnav">
+								<div class="next-lt">
+									<ul style="margin-top: 5px;">
+										<li style="margin-right: 230px;text-align: left;">男装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+										<li>裙装</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">鞋靴</li>
+										<li>新品</li>
+										<li style="width: 60px;">女士单鞋</li>
+										<li>男鞋</li>
+										<li>靴子</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女包</li>
+										<li>新品</li>
+										<li style="width: 75px;">手提斜跨包</li>
+										<li>单肩包</li>
+										<li>钱夹</li>
+										<li>手拿包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">男包</li>
+										<li>新品</li>
+										<li>钱包</li>
+										<li>单肩包</li>
+										<li>手拿包</li>
+										<li>手提包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">配饰</li>
+										<li>新品</li>
+										<li>围巾</li>
+										<li>帽子</li>
+										<li>腰带</li>
+									</ul>
+									<ul style="border-bottom: none;">
+										<li style="margin-right: 230px;text-align: left;">婴童</li>
+										<li>童装</li>
+										<li>童鞋</li>
+										<li style="width: 50px;">婴童配饰</li>
+									</ul>
+								</div>
+								<div class="next-rt">
+									<p>品牌</p>
+									<ul>
+										<li style="margin-top: 10px;">BURBERRY</li>
+										<li>FERRAGAMO</li>
+										<li style="width: 50px;">GUCCI</li>
+										<li style="width: 50px;">COACH</li>
+										<li>ARMANI JEANS</li>
+										<li style="width: 50px;">DIESEL</li>
+										<li style="width: 50px;">VERSACE</li>
+										<li>MAX&CO</li>
+										<li>FRED PERRY</li>
+										<li>CELINE</li>
+										<li>SPORTMAX</li>
+										<li>MAX MARA</li>
+										<li>MICHAEL KORS</li>
+										<li style="width: 50px;">ZEGNA</li>
+										<li style="width: 50px;">FENDI</li>
+										<li style="width: 120px;">EMPORIO ARMANI</li>
+										<li >BALLY</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="iconfont hdred" style="font-size: 16px;line-height: 46px;color: white;">
+								&#xe630;
+							</span>
+							<span class="mingping">运动</span>|
+							<span class="shangxing">运动鞋服</span>
+							<span class="jiantou"> > </span>
+							<div class="nextnav">
+								<div class="next-lt">
+									<ul style="margin-top: 5px;">
+										<li style="margin-right: 230px;text-align: left;">男装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+										<li>裙装</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">鞋靴</li>
+										<li>新品</li>
+										<li style="width: 60px;">女士单鞋</li>
+										<li>男鞋</li>
+										<li>靴子</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女包</li>
+										<li>新品</li>
+										<li style="width: 75px;">手提斜跨包</li>
+										<li>单肩包</li>
+										<li>钱夹</li>
+										<li>手拿包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">男包</li>
+										<li>新品</li>
+										<li>钱包</li>
+										<li>单肩包</li>
+										<li>手拿包</li>
+										<li>手提包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">配饰</li>
+										<li>新品</li>
+										<li>围巾</li>
+										<li>帽子</li>
+										<li>腰带</li>
+									</ul>
+									<ul style="border-bottom: none;">
+										<li style="margin-right: 230px;text-align: left;">婴童</li>
+										<li>童装</li>
+										<li>童鞋</li>
+										<li style="width: 50px;">婴童配饰</li>
+									</ul>
+								</div>
+								<div class="next-rt">
+									<p>品牌</p>
+									<ul>
+										<li style="margin-top: 10px;">BURBERRY</li>
+										<li>FERRAGAMO</li>
+										<li style="width: 50px;">GUCCI</li>
+										<li style="width: 50px;">COACH</li>
+										<li>ARMANI JEANS</li>
+										<li style="width: 50px;">DIESEL</li>
+										<li style="width: 50px;">VERSACE</li>
+										<li>MAX&CO</li>
+										<li>FRED PERRY</li>
+										<li>CELINE</li>
+										<li>SPORTMAX</li>
+										<li>MAX MARA</li>
+										<li>MICHAEL KORS</li>
+										<li style="width: 50px;">ZEGNA</li>
+										<li style="width: 50px;">FENDI</li>
+										<li style="width: 120px;">EMPORIO ARMANI</li>
+										<li >BALLY</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="iconfont hdred" style="font-size: 16px;line-height: 46px;color: white;">
+								&#xe620;
+							</span>
+							<span class="mingping">配饰</span>|
+							<span class="shangxing">黄金饰品</span>
+							<span class="jiantou"> > </span>
+							<div class="nextnav">
+								<div class="next-lt">
+									<ul style="margin-top: 5px;">
+										<li style="margin-right: 230px;text-align: left;">男装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+										<li>裙装</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">鞋靴</li>
+										<li>新品</li>
+										<li style="width: 60px;">女士单鞋</li>
+										<li>男鞋</li>
+										<li>靴子</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女包</li>
+										<li>新品</li>
+										<li style="width: 75px;">手提斜跨包</li>
+										<li>单肩包</li>
+										<li>钱夹</li>
+										<li>手拿包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">男包</li>
+										<li>新品</li>
+										<li>钱包</li>
+										<li>单肩包</li>
+										<li>手拿包</li>
+										<li>手提包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">配饰</li>
+										<li>新品</li>
+										<li>围巾</li>
+										<li>帽子</li>
+										<li>腰带</li>
+									</ul>
+									<ul style="border-bottom: none;">
+										<li style="margin-right: 230px;text-align: left;">婴童</li>
+										<li>童装</li>
+										<li>童鞋</li>
+										<li style="width: 50px;">婴童配饰</li>
+									</ul>
+								</div>
+								<div class="next-rt">
+									<p>品牌</p>
+									<ul>
+										<li style="margin-top: 10px;">BURBERRY</li>
+										<li>FERRAGAMO</li>
+										<li style="width: 50px;">GUCCI</li>
+										<li style="width: 50px;">COACH</li>
+										<li>ARMANI JEANS</li>
+										<li style="width: 50px;">DIESEL</li>
+										<li style="width: 50px;">VERSACE</li>
+										<li>MAX&CO</li>
+										<li>FRED PERRY</li>
+										<li>CELINE</li>
+										<li>SPORTMAX</li>
+										<li>MAX MARA</li>
+										<li>MICHAEL KORS</li>
+										<li style="width: 50px;">ZEGNA</li>
+										<li style="width: 50px;">FENDI</li>
+										<li style="width: 120px;">EMPORIO ARMANI</li>
+										<li >BALLY</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="iconfont hdred" style="font-size: 16px;line-height: 46px;color: white;">
+								&#xe626;
+							</span>
+							<span class="mingping">婴童</span>|
+							<span class="shangxing">母婴</span>
+							<span class="jiantou" style="margin-left: 60px;"> > </span>
+							<div class="nextnav">
+								<div class="next-lt">
+									<ul style="margin-top: 5px;">
+										<li style="margin-right: 230px;text-align: left;">男装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+										<li>裙装</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">鞋靴</li>
+										<li>新品</li>
+										<li style="width: 60px;">女士单鞋</li>
+										<li>男鞋</li>
+										<li>靴子</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女包</li>
+										<li>新品</li>
+										<li style="width: 75px;">手提斜跨包</li>
+										<li>单肩包</li>
+										<li>钱夹</li>
+										<li>手拿包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">男包</li>
+										<li>新品</li>
+										<li>钱包</li>
+										<li>单肩包</li>
+										<li>手拿包</li>
+										<li>手提包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">配饰</li>
+										<li>新品</li>
+										<li>围巾</li>
+										<li>帽子</li>
+										<li>腰带</li>
+									</ul>
+									<ul style="border-bottom: none;">
+										<li style="margin-right: 230px;text-align: left;">婴童</li>
+										<li>童装</li>
+										<li>童鞋</li>
+										<li style="width: 50px;">婴童配饰</li>
+									</ul>
+								</div>
+								<div class="next-rt">
+									<p>品牌</p>
+									<ul>
+										<li style="margin-top: 10px;">BURBERRY</li>
+										<li>FERRAGAMO</li>
+										<li style="width: 50px;">GUCCI</li>
+										<li style="width: 50px;">COACH</li>
+										<li>ARMANI JEANS</li>
+										<li style="width: 50px;">DIESEL</li>
+										<li style="width: 50px;">VERSACE</li>
+										<li>MAX&CO</li>
+										<li>FRED PERRY</li>
+										<li>CELINE</li>
+										<li>SPORTMAX</li>
+										<li>MAX MARA</li>
+										<li>MICHAEL KORS</li>
+										<li style="width: 50px;">ZEGNA</li>
+										<li style="width: 50px;">FENDI</li>
+										<li style="width: 120px;">EMPORIO ARMANI</li>
+										<li >BALLY</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="iconfont hdred" style="font-size: 16px;line-height: 46px;color: white;">
+								&#xe628;
+							</span>
+							<span class="mingping">内衣</span>|
+							<span class="shangxing">舒适内衣</span>
+							<span class="jiantou"> > </span>
+							<div class="nextnav">
+								<div class="next-lt">
+									<ul style="margin-top: 5px;">
+										<li style="margin-right: 230px;text-align: left;">男装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女装</li>
+										<li>新品</li>
+										<li>卫衣</li>
+										<li style="width: 50px;">针织衫</li>
+										<li>裤装</li>
+										<li>外套</li>
+										<li>裙装</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">鞋靴</li>
+										<li>新品</li>
+										<li style="width: 60px;">女士单鞋</li>
+										<li>男鞋</li>
+										<li>靴子</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">女包</li>
+										<li>新品</li>
+										<li style="width: 75px;">手提斜跨包</li>
+										<li>单肩包</li>
+										<li>钱夹</li>
+										<li>手拿包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">男包</li>
+										<li>新品</li>
+										<li>钱包</li>
+										<li>单肩包</li>
+										<li>手拿包</li>
+										<li>手提包</li>
+									</ul>
+									<ul>
+										<li style="margin-right: 230px;text-align: left;">配饰</li>
+										<li>新品</li>
+										<li>围巾</li>
+										<li>帽子</li>
+										<li>腰带</li>
+									</ul>
+									<ul style="border-bottom: none;">
+										<li style="margin-right: 230px;text-align: left;">婴童</li>
+										<li>童装</li>
+										<li>童鞋</li>
+										<li style="width: 50px;">婴童配饰</li>
+									</ul>
+								</div>
+								<div class="next-rt">
+									<p>品牌</p>
+									<ul>
+										<li style="margin-top: 10px;">BURBERRY</li>
+										<li>FERRAGAMO</li>
+										<li style="width: 50px;">GUCCI</li>
+										<li style="width: 50px;">COACH</li>
+										<li>ARMANI JEANS</li>
+										<li style="width: 50px;">DIESEL</li>
+										<li style="width: 50px;">VERSACE</li>
+										<li>MAX&CO</li>
+										<li>FRED PERRY</li>
+										<li>CELINE</li>
+										<li>SPORTMAX</li>
+										<li>MAX MARA</li>
+										<li>MICHAEL KORS</li>
+										<li style="width: 50px;">ZEGNA</li>
+										<li style="width: 50px;">FENDI</li>
+										<li style="width: 120px;">EMPORIO ARMANI</li>
+										<li >BALLY</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="content">
+				<div class="main">
+					<div class="topcaidan">
+						<span>
+							<a href="index.html">首页</a>&nbsp;>&nbsp;
+						</span>
+						<span>
+							<a href="">美妆</a>&nbsp;>&nbsp;
+						</span>
+						<span>
+							<a href="">面部保养</a>&nbsp;>&nbsp;
+						</span>
+						<span>
+							<a href="">爽肤水</a>&nbsp;>&nbsp;
+						</span>
+						<span>
+							<a href="">SK-II</a>&nbsp;>&nbsp;
+						</span>
+						<span>
+							<a href="">(自营)SK-II护肤精华露230ml</a>&nbsp;>&nbsp;
+						</span>
+					</div>
+					<div class="maincenter">
+						<div class="maincenter_left">
+							<div class="fangdajinbox">
+								<div class="fangfain">
+									<div class="smallbox">
+										<div class="blue"></div>
+										<div class="sm_img"></div>
+									</div>
+									<div class="bigbox" style="z-index: 10;">
+										<img src="img/xq1.jpg" class="big_img">
+									</div>
+									<div class="mainend">
+									<div class="jiantou-lt">
+										<img src="img/xqjt.png" style="position: relative;top: 0px;"/>
+									</div>
+									<div class="jiantou-rt">
+										<img src="img/xqjt.png" style="position: relative;left: -9px;"/>
+									</div>
+									<div class="jiantou-center">
+										<div class="jiantou-in">
+											<img src="img/small.jpg"/>
+										</div>
+									</div>
+								</div>
+								</div>
+								<div class="bianhaobox">
+									<span class="bianhao1">商品编号：<span class="bianhao2">21-066-7082</span></span>
+									<div class="tubiao">
+										<div class="shoucan">
+											<div class="xin">
+												<img src="img/xq4.png"/>
+											</div>
+											<span>收藏</span>
+										</div>
+										<div class="weixintubiao">
+											<img src="img/xq4.png"/>
+										</div>
+										<div class="weixintbbox">
+											<img src="img/xq7.png"/>
+											<div class="weixintbbox-text">
+												<p>用微信扫描二维码</p>
+												<p>分享至好友或朋友圈</p>
+											</div>
+										</div>
+										<div class="fenxiang" style="z-index: ;">
+											<img src="img/xq4.png"/>
+										</div>
+										<div class="fenxiangbox" style="z-index: ;">
+												<div class="renren">
+													<div><img src="img/xq4.png"/></div>
+													<span>人人网</span>
+												</div>
+												<div class="xinlang">
+													<div><img src="img/xq4.png"/></div>
+													<span>新浪微博</span>
+												</div>
+												<div class="weibo">
+													<div><img src="img/xq4.png"/></div>
+													<span>腾讯微博</span>
+												</div>
+												<div class="kongjian">
+													<div><img src="img/xq4.png"/></div>
+													<span>QQ空间</span>
+												</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="miaoshu">
+								<div class="miaoshutitle">
+									(自营)SK-II护肤精华露230ml
+								</div>
+								<div class="jiange">
+									<p class="jiage-in" style="height: 25px;margin-bottom: 15px;">
+										<span>银泰价：</span>
+										<strong class="yt-num">
+											￥799.
+											<em>00</em>
+										</strong>
+									</p>
+									<div class="cankaojia">
+										<div class="cankaojia-in">
+											参考价
+											<span class="mk-num">￥1370.<em>00</em></span>
+										</div>
+									</div>
+								</div>
+								<div class="huodong">
+									<span class="yellowLabel">
+										<span>特例</span>
+										<em></em>
+									</span>
+								</div>
+								<div class="shuju">
+									<div class="rongliangbox">
+										<div class="xuanze">
+											选择容量：
+										</div>
+										<div class="haoshen">
+											230ml
+										</div>
+									</div>
+									<div class="anniubox">
+										<div class="anniu1">
+											<div class="anniu1in">
+												1
+											</div>
+											<div class="shangxiajian" style="z-index: 1;">
+												<div class="shang"></div>
+												<div class="xia"></div>
+											</div>
+										</div>
+										<div class="anniu2">
+											立即购买
+										</div>
+										<div class="anniu3">
+											<img src="img/gwd.png" style="position: relative;left: 10px;float: left;"/>
+											加入购物车
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="chengnuo">
+									<div class="fuwu">服务承诺：</div>
+									<img src="img/gou.png"/>
+									<span>正品保障</span>
+									<img src="img/gou.png"/>
+									<span>支持无理由退货</span>
+									<img src="img/gou.png"/>
+									<span>免运费</span>
+							</div>
+						</div>
+						<div class="maincenter_right">
+							<div class="xqlogo">
+								<div class="sk">
+									<img src="img/xq2.jpg"/>
+								</div>
+								<div class="sksk">
+									SK-II
+								</div>
+							</div>
+							<div class="ji">
+								<img src="img/xq3.jpg"/>
+							</div>
+						</div>
+					</div>
+					<div class="shangpinjieshaobox">
+						<div class="xidingbox">
+							<ul class="shangpinlist">
+								<li style="background: #b7ab91;">商品介绍</li>
+								<li>商品评价</li>
+								<li>商品咨询</li>
+								<li>购买须知</li>
+								<li style="border-right: none;"></li>
+							</ul>
+							<div class="shoujixiadan">
+								<a href="" class="befor"><img src="img/xq4.png" /></a>
+								<a href="" class="after"><img src="img/xq4.png" /></a>
+								<div class="bigerweima">
+									<img src="img/xq7.png"/>
+								</div>
+							</div>
+							<div class="jiaru">
+								<img src="img/gwd.png"/>
+								加入购物车
+								
+							</div>
+						</div>
+						<div class="imgbox">
+							<div class="banxin">
+								<ul class="banxin-main">
+									<li class="firstli">
+										<div class="litop">
+											商品详情
+											<span>
+						                        Product Details
+						                    </span>
+										</div>
+										<div class="jieshao">
+											<div>
+												<img src="img/xq4.jpg"/>
+											</div>
+											<div>
+												<img src="img/xq5.jpg"/>
+											</div>
+											<div>
+												<img src="img/xq6.jpg"/>
+												
+											</div>
+											<div>
+												<img src="img/xq7.jpg"/>
+											</div>
+											<div>
+												<img src="img/xq8.jpg"/>
+											</div>
+											<div>
+												<img src="img/xq9.jpg"/>
+											</div>
+											<div>
+												<img src="img/xq10.jpg"/>
+											</div>
+											<div>
+												<img src="img/xq11.jpg"/>
+											</div>
+										</div>
+									</li>
+									<li class="nextli">
+										<div class="litop">
+											价格说明
+											<span>
+						                        Product Details
+						                    </span>
+										</div>
+										<p>银泰价：银泰价为商品的销售价，该价格是交易成交价，是您最终决定是否购买商品的依据。</p>
+										<p>划线价：商品展示的划横线价格为参考价，该价格可能是品牌专柜标价、商品吊牌价或由品牌供应商提供的正品零售价（如厂商指导价、建议零售价等）或该商品在银泰网平台上曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价等可能会与您购物时展示的不一致，该价格仅供您参考。</p>
+										<p>折扣：银泰网上展示的折扣为银泰价与参考价的对比（该值四舍五入后采小数点后1位，如¥799/¥2899=0.2756=2.8折），该对比值仅供您参考，不作为结算基数。</p>
+										<p>促销：商品促销信息以商品详情页“促销”栏中的信息为准；商品的具体售价以订单结算页价格为准；如您发现活动商品售价或促销信息有异常，建议购买前先联系银泰网客服进行咨询。</p>
+									</li>
+									<li class="endli">
+										<div class="litop">
+											品牌故事
+											<span>
+						                        Product Details
+						                    </span>
+										</div>
+										<div class="gushi">
+											<div class="gushilt">
+												<div class="gushilogo">
+													<img src="img/xq2.jpg"/>
+												</div>
+												<div class="gushitxt">
+													<p class="brand-cnName">SK-II</p>
+													<p class="p-fenge90"></p>
+													<p class="brand-txt">SK-II 的背后蕴藏着一段引人入胜的故事。 一切开始于1975年,日本北海道的一家清酒酿造厂。科学家注意到，年迈工人脸部皮肤皱皱巴巴，但是他们一直接触清酒发酵过程的双手却如少女般柔软细嫩。经过多年研究，科学家从酵母发酵过程中分离出一种自然生成的液体，即神奇的Pitera?成分。此后，SK-I......</p>
+													<a href="">进入品牌店&gt;&gt;</a>
+												</div>
+											</div>
+											<div class="gushirt">
+												<img src="img/xq12.jpg"/>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+			<!--Footer区-->
+			<footer>
+				<div class="top">
+					<div class="fttext fttext1" style="width: 328px;">
+						<span class="fttext-img" style="width: 20px;">
+							<img src="img/footer-01.png"/>
+						</span>
+						<span class="fttext1-1">400-119-1111</span><span style="color: #404040;" class="fttime">8:00-24:00</span><br />
+						<span style="font-size: 16px;margin: 5px 0 0 5px;color: #696969;">
+							service@yintai.com
+						</span>
+					</div>
+					<div class="fttext fttext2">
+						<span class="fttext-img" style="position: relative;left: -50px;">
+							<img src="img/footer-01.png" style="position: relative;top:-80px"/>
+						</span>
+						<span class="fttext2-2"><span class="fttext2-in">15天</span>无忧退货</span><br />
+						<span class="fttext2-22">为您提供优质售后服务</span>
+					</div>
+					<div class="fttext fttext2" >
+						<span class="fttext-img" style="position: relative;left: -50px;">
+							<img src="img/footer-01.png" style="position: relative;top:-155px;left: 0px;"/>
+						</span>
+						<span class="fttext2-2"><span class="fttext2-in">100%</span>正品保证</span><br />
+						<span class="fttext2-22">品质护航 购物无忧</span>
+					</div>
+					<div class="fttext fttext3" style="width: 291px;border-right: none;position: relative;">
+						<span class="fttext-img"style="position: relative;left: -50px;">
+							<img src="img/footer-01.png" style="position: relative;top:-225px;"/>
+						</span>
+						<span class="fttext2-2" style="position: relative;left: -35px;"><span class="fttext2-in">满199元</span>免运费</span><br />
+						<span class="fttext2-22" style="position: relative;left: -35px;width: 170px;">为您提供便利物流</span>
+					</div>
+				</div>
+				<div class="ftct">
+					<ul class="ftcenter">
+						<li>关于银泰</li>
+						<li>帮助中心</li>
+						<li>退换货政策</li>
+						<li>网站地图</li>
+						<li>代理合作</li>
+						<li>品牌招商</li>
+						<li>商务合作</li>
+						<li>网站联盟</li>
+						<li>联系我们</li>
+						<li>加入银泰</li>
+						<li>版权声明</li>
+						<li>法律声明</li>
+					</ul>
+				</div>
+				<div class="banquanbox">
+					<p class="banquantop">浙ICP备10200233号京公网安备110105019085增值电信业务经营许可证：浙B2-20110005</p>
+					<p class="banquanend">Yintai © 2016, 银泰电子商务有限公司.</p>
+				</div>
+				<div class="ftend">
+					<a href="" style="width: 112px;height: 40px;"><img src="img/foot1.png"/></a>
+					<a href="" style="width: 102px;height: 40px;"><img src="img/foot2.png"/></a>
+					<a href="" style="height:48px;width: 48px;"><img src="img/foot3.gif" style="height:48px;width: 48px;position: relative;top: -4px;"/></a>
+				</div>
+			</footer>
+		</div>
+	</body>
+	<script src="js/xiangqing.js" type="text/javascript" charset="utf-8"></script>
+</html>

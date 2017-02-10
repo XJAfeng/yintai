@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/ddxx.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ftstyle.css"/>
+		<link rel="stylesheet" type="text/css" href="css/gwlink.css"/>
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			@font-face {
+				  font-family: 'iconfont';
+				  src: url('font/iconfont.eot');
+				  src: url('font/iconfont.eot?#iefix') format('embedded-opentype'),
+				  url('font/iconfont.woff') format('woff'),
+				  url('font/iconfont.ttf') format('truetype'),
+				  url('font/iconfont.svg#iconfont') format('svg');
+				}
+			.iconfont{
+				font-family: 'iconfont';
+				font-size: 16px;
+				vertical-align: 1px;
+				position: relative;
+				top: 3px;
+				color: #323333;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="" id="web">
+			<div id="top"></div>
+			<div id="content">
+				<div class="main">
+					<div class="topimg">
+						<img src="img/gw1.png"/>
+					</div>
+					<div class="txddbox2">
+						<div class="liucheng">
+							<h2></h2>
+							<div class="liucheng2">
+								<div class="lc-lt">
+									查看购物袋
+									<div class="step1">STEP 1</div>
+								</div>
+								<div class="txbox">
+									填写订单信息
+									<div class="step1" style="width: 402px;color: #E5004F;">STEP 2</div>
+								</div>
+								<div class="sure">
+									订单确认
+									<div class="step1" style="color: #ccc;">STEP 3</div>
+								</div>
+							</div>
+						</div>
+						<div class="formbox" style="border-width: 1px 1px 2px;">
+							<div class="shouhuotitle">
+								<h3>收货信息</h3>
+							</div>
+							<div class="dizhibox">
+								<div class="use">
+									<input type="radio" name="" id="" value="" style="margin: 6px 6px 0 38px;"/>
+									<lable class='lb'>使用新地址</lable>
+								</div>
+								<div class="bigdizhi">
+									<ul class="dizhiul">
+										<li class="ul-1">
+											<span class="shname">收货人：</span>
+												<input type="text" name="" class="shouhuo" />
+										</li>
+										<li class="ul-1">
+											<span class="shname">手机：</span>
+											<input type="text" name="" class="shouhuo" style="width: 112px;"/>
+											<span style="color: #999;margin: 0 6px;">或者</span>固定电话:
+											<input type="text" name="" class="shouhuo" style="width:46px;"/>
+											-<input type="text" name="" class="shouhuo" style="width: 112px;"/>
+											-<input type="text" name="" class="shouhuo" style="width: 66px;"/>
+										</li>
+										<li class="ul-1" style="height: 61px;">
+											<span class="shname" style="line-height: 18px;">收货地址：</span>
+											<div class="czdz">
+												<select name="">
+													<option value="">请选择</option>
+												</select>
+											</div>
+											<div class="dzbox">
+												<input type="text" name="" class="shouhuo" style="width: 294px;"/>
+											</div>
+										</li>
+										<li class="ul-1">
+											<span class="shname">邮政编码：</span>
+											<input type="text" name="" class="shouhuo" style="width: 82px;"/>
+										</li>
+										<li class="ul-line"></li>
+										<li class="ul-1" style="height: 88px;">
+											<span class="shname">送货时间：</span>
+											<p class="shtime">
+												<span class="timetxt">
+													<input type="radio" name="" id="" value="" checked="checked"/>
+													<lable>工作日送货</lable>
+													<em>周一至周五，早上9:00至晚6:00</em>
+												</span>
+												<span class="timetxt">
+													<input type="radio" name="" id="" value=""/>
+													<lable>节假日送货</lable>
+													<em>周六日及国家法定节假日</em>
+												</span>
+												<span class="timetxt">
+													<input type="radio" name="" id="" value=""/>
+													<lable>任何送货时间</lable>
+												</span>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="surebox">
+									<button>确认收货信息</button>
+									<span>请确认收货地址</span>
+								</div>
+							</div>
+						</div>
+						<div class="fukuanbox">
+							<div class="fukuantop">
+								<h3>支付方式</h3>
+								<span>
+									【修改】
+								</span>
+							</div>
+							<div class="fukuanbottom">
+								<div class="zhifutxt">
+									您本次购物需支付
+									<span style="color: #E5004F;font-weight: bold;">
+										￥1,499.00
+									</span>
+									元
+								</div>
+								<div class="zhifuimg">
+									<input type="radio" name="" id="" value="" checked="checked" style="float: left;line-height: 40px;"/>
+									<span></span>
+								</div>
+							</div>
+						</div>
+						<div class="fapiaopbox">
+							<div class="fukuantop">
+								<h3>发票信息</h3>
+								<span>
+									【修改】
+								</span>
+							</div>
+							<p style="color: #666;">发票信息-无</p>
+						</div>
+						<div class="qingdanbox">
+							<div class="spqd">
+								商品清单
+							</div>
+							<div class="qdms">
+								以下商品将由银泰网发出
+							</div>
+							<div class="qdimg">
+								<div class="qdlist">
+									<span style="width: 110px;">商品编号</span>
+									<span style="width: 386px;">商品明细</span>
+									<span style="width: 90px;">获得积分</span>
+									<span style="width: 112px;">数量</span>
+									<span style="width: 120px;">单价</span>
+									<span style="width: 120px;">小计</span>
+								</div>
+								<div class="qdxq">
+									<div class="qd1">
+										21-227-9246
+									</div>
+									<div class="qd2">
+										<div class="qdsmallimg">
+											
+										</div>
+										<p>【自营】MSGM褐色纯棉拼色装饰男士卫衣,2140MM103 164790,27,M</p>
+										<div class="qdsize">
+											<span>颜色：灰色</span>
+											<span>尺码 M</span>
+										</div>
+									</div>
+									<div class="qd3">
+										1499
+									</div>
+									<div class="qd4">
+										1
+									</div>
+									<div class="qd5" style="width: 120px;">
+										￥1499.00
+									</div>
+									<div class="qd5" style="width: 120px;">
+										￥1499.00
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="youhuiquan">
+							<div class="yhq1">
+								<div class="yhq1-lt">
+									<input type="checkbox" name="" id="" value="" />
+									<label class="hidesum">隐藏订单金额</label>
+								</div>
+								<div class="yhq1-rt">
+									
+								</div>
+							</div>
+							<div class="yhq2">
+								<div class="yhq_xz">
+									<span>使用优惠券</span>
+									<i class="yhq_sjx">&nbsp;</i>
+								</div>
+							</div>
+							<div class="yhq2box">
+								<div class="yhq2top">
+									<div style="text-indent: 15px;padding-left: 10px;width: 180px;">金额</div>
+									<div style="width: 260px;">品类</div>
+									<div style="width: 200px;">有效期</div>
+									<div style="width: 240px;">说明</div>
+								</div>
+								<div class="yhq2bottom">
+									<div class="yhqbt-lt">
+										<lable style="display: inline-block;width:170px;height: 47px;">
+											<input type="radio" checked="checked" style="float: left;" class="yhq_btn"/>
+											<span style="display: inline-block;height: 47px;width: 110px;line-height: 47px;float: left;">其他优惠券</span>
+										</lable>
+									</div>
+									<div class="yhqbt-rt">
+										<span>优惠券编码：</span>
+										<input type="text" name="" id="" value="" />
+										<button>使用</button>
+									</div>
+								</div>
+							</div>
+							<div class="yhq3">
+								<div class="yhq_xz">
+									<span>使用积分支付</span>
+									<i class="yhq_sjx">&nbsp;</i>
+								</div>
+							</div>
+							<div class=" yhq3box">
+								<div class="box3top">
+									<span>本次使用</span>
+									<input type="text" class="J-JiFenOverpay J-Input" value="">
+									<span>积分</span>
+									<button class="J-UseJiFen">使用</button>
+								</div>
+								<div class="box3bottom">
+									<p class="plt">
+										您的帐户有<span>200</span>积分可用 （其中包含门店会员卡<span>0</span>积分，优先扣减银泰门店会员卡积分）
+									</p>
+									<p class="prt">
+										什么是积分
+									</p>
+								</div>
+							</div>
+							<div class="yhq4">
+								<div class="yhq_xz">
+									<span>使用银泰卡支付</span>
+									<i class="yhq_sjx">&nbsp;</i>
+								</div>
+							</div>
+							<div class=" yhq4box">
+								<div class="yhq4top">
+									<div class="yhqtoplt">
+										<span>请输入您的银泰卡卡号：</span>
+										<input type="text" class="J-IntimeCard" maxlength="19">
+										<span>网购激活码：</span>
+										<input type="text" class=" J-IntimePass" maxlength="10">
+										<button class="J-UseJiFen2">使用</button>
+										
+									</div>
+									<p class="yhqtoprt prt">
+										什么是银泰卡？
+									</p>
+								</div>
+								<div class="yhq4bottom">
+									<p class="yintai-declare">可使用的银泰卡：</p>
+									<div class="kalist">
+										<div class="kalist2">
+											<div class="unified intime-check"></div>
+											<div class="unified intime-cardid">卡号</div>
+											<div class="unified intime-usable">可用金额</div>
+											<div class="unified intime-use">本次使用金额</div>
+											<div class="unified intime-balance">余额</div>
+											<div class="unified intime-type">类型</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="payend">
+								<div class="paytop">
+									<div>
+										<p>
+										您已选<span>2 </span>件商品商品总价：¥4,949.00
+										</p>
+										<p>
+											节省金额：¥0.00
+										</p>
+										<p>
+											运费：¥0.00
+										</p>
+										<p class="pend">
+											需支付金额:
+											<span>
+												¥4,949.00
+											</span>
+										</p>
+									</div>
+								</div>
+								<div class="paybottom">
+									<a href="gouwuche.html" class="paybtmlt">
+										返回购物袋
+									</a>
+									<a href="ddzf.html" class="paybtmrt">
+										
+									</a>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="foot"></div>
+		</div>
+	</body>
+	<script src="js/ddxx.js" type="text/javascript" charset="utf-8"></script>
+</html>
